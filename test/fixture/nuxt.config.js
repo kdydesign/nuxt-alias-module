@@ -7,8 +7,11 @@ module.exports = {
   render: {
     resourceHints: false
   },
-  modules: [{
+  buildModules: [{
     handler: require('../../')
   }],
+  nuxtAlias: {
+    rootDir: ['components']
+  },
   plugins: ['~/plugins/index']
 }
