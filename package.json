@@ -1,12 +1,12 @@
 {
-  "name": "nuxt-alias",
+  "name": "nuxt-alias-module",
   "version": "0.0.1",
   "description": "It automatically creates an alias for the components and page of the path",
   "main": "lib/module.js",
-  "homepage": "https://github.com/kdydesign/nuxt-alias",
-  "repository": "https://github.com/kdydesign/nuxt-alias",
+  "homepage": "https://github.com/kdydesign/nuxt-alias-module",
+  "repository": "https://github.com/kdydesign/nuxt-alias-module",
   "bugs": {
-    "url": "https://github.com/kdydesign/nuxt-alias/issues",
+    "url": "https://github.com/kdydesign/nuxt-alias-module/issues",
     "email": "kdydesign@gmail.com"
   },
   "scripts": {
@@ -38,8 +38,7 @@
   ],
   "dependencies": {
     "consola": "^2.11.1",
-    "glob": "^7.1.6",
-    "lodash": "^4.17.15"
+    "glob": "^7.1.6"
   },
   "devDependencies": {
     "@babel/core": "latest",
