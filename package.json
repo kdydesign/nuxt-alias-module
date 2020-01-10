@@ -10,7 +10,7 @@
     "email": "kdydesign@gmail.com"
   },
   "scripts": {
-    "dev": "nuxt test/fixture --o",
+    "dev": "nuxt test/fixture",
     "lint": "eslint lib test",
     "test": "yarn lint && jest",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish"
@@ -21,7 +21,8 @@
     "alias",
     "nuxt-module",
     "nuxt-alias",
-    "nuxt-alias-module"
+    "nuxt-alias-module",
+    "path"
   ],
   "contributors": [
     {
@@ -36,13 +37,16 @@
     "lib"
   ],
   "dependencies": {
-    "consola": "^2.11.1"
+    "consola": "^2.11.1",
+    "glob": "^7.1.6",
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@nuxt/utils": "^2.11.0",
     "@nuxtjs/eslint-config": "latest",
     "babel-eslint": "latest",
     "babel-jest": "latest",
