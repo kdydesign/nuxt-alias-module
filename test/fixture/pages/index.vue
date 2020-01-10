@@ -2,24 +2,25 @@
   <div class="container">
     <div>
       <h1 class="title">
-        Nuxt-Alias
+        <component-a/>
+        <component-b/>
+        <component-c/>
       </h1>
     </div>
   </div>
 </template>
 
 <script>
+import ComponentA from '~/components/component-A'
+import ComponentB from 'forlder-A/component-B'
+import ComponentC from 'forlder-C/component-C'
+
 export default {
   name: 'index',
-  data() {
-    return {
-    }
-  },
-  computed: {
-  },
-  created() {
-  },
-  methods: {
+  components: {
+    ComponentA,
+    ComponentB,
+    ComponentC
   }
 }
 </script>
