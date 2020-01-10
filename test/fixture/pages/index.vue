@@ -12,8 +12,8 @@
 
 <script>
 import ComponentA from '~/components/component-A'
-import ComponentB from 'forlder-A/component-B'
-import ComponentC from 'forlder-C/component-C'
+import ComponentB from 'folder-A/component-B'
+import ComponentC from 'folder-C/component-C'
 
 export default {
   name: 'index',
