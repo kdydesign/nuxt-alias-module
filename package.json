@@ -1,6 +1,6 @@
 {
   "name": "nuxt-alias",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "It automatically creates an alias for the components and page of the path",
   "main": "lib/module.js",
   "homepage": "https://github.com/kdydesign/nuxt-alias-module",
