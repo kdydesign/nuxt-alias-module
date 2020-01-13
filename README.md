@@ -1,11 +1,11 @@
 # 👽 Nuxt-Alias-Module
-<!-- [![npm version][npm-version-src]][npm-version-href]
+[![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Circle CI][circle-ci-src]][circle-ci-href]
 [![Codecov][codecov-src]][codecov-href]
 [![Dependencies][david-dm-src]][david-dm-href]
 [![Standard JS][standard-js-src]][standard-js-href]
-![License][license-src] -->
+![License][license-src]
 
 > It automatically creates an alias for the components and page of the path</a>
 
@@ -59,7 +59,7 @@ Alias is designated by the name of the parent folder of the inserted component. 
 ```
 
 ```js
-// idex.vue
+// index.vue
 import ComponentA from 'folder-A/component-A'
 import ComponentB from 'folder-C/component-B'
 import ComponentC from '~/components/component-C' // If the srcDir immediate subfolder is alias, it does not specify alias.
@@ -81,16 +81,16 @@ export default {
 Copyright (c) [Dev.DY](https://kdydesign.github.io/)
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-moment?style=flat-square
-[npm-version-href]: https://npmjs.com/package/nuxt-moment
-[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-moment?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/nuxt-moment
-[circle-ci-src]: https://img.shields.io/circleci/project/github/kdydesign/nuxt-moment-module/master.svg?style=flat-square
-[circle-ci-href]: https://circleci.com/gh/kdydesign/nuxt-moment-module/tree/master
-[codecov-src]: https://img.shields.io/codecov/c/github/kdydesign/nuxt-moment-module.svg?style=flat-square
-[codecov-href]: https://codecov.io/gh/kdydesign/nuxt-moment-module
-[david-dm-src]: https://david-dm.org/kdydesign/nuxt-moment-module/status.svg?style=flat-square
-[david-dm-href]: https://david-dm.org/kdydesign/nuxt-moment-module
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-alias?style=flat-square
+[npm-version-href]: https://npmjs.com/package/nuxt-alias
+[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-alias?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/nuxt-alias
+[circle-ci-src]: https://img.shields.io/circleci/project/github/kdydesign/nuxt-alias-module/master.svg?style=flat-square
+[circle-ci-href]: https://circleci.com/gh/kdydesign/nuxt-alias-module/tree/master
+[codecov-src]: https://img.shields.io/codecov/c/github/kdydesign/nuxt-alias-module.svg?style=flat-square
+[codecov-href]: https://codecov.io/gh/kdydesign/nuxt-alias-module
+[david-dm-src]: https://david-dm.org/kdydesign/nuxt-alias-module/status.svg?style=flat-square
+[david-dm-href]: https://david-dm.org/kdydesign/nuxt-alias-module
 [standard-js-src]: https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square
 [standard-js-href]: https://standardjs.com
-[license-src]: https://img.shields.io/npm/l/nuxt-moment?style=flat-square
+[license-src]: https://img.shields.io/npm/l/nuxt-alias?style=flat-square
