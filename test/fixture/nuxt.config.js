@@ -11,7 +11,8 @@ module.exports = {
     handler: require('../../')
   }],
   nuxtAlias: {
-    rootDir: ['components']
+    rootDir: ['components'],
+    ignoreDir: ['folder-C']
   },
   plugins: ['~/plugins/index']
 }

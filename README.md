@@ -44,10 +44,19 @@ Setting `rootDir` creates an alias based on the structure of the set folder.
 - Type: `Array`
 - Default: `*`
 
+### `ignoreDir`
+Set the parent folder name to configure alias.
+Setting `rootDir` creates an alias based on the structure of the set folder.
+`rootDir` is a subfolder of `srcDir`, which is the setting of `nuxt.config.js`.
+
+- Type: `Array`
+- Default: `*`
+
 ## Usage
 
 Alias is designated by the name of the parent folder of the inserted component. However, no alias are specified if the folder set in `rootDir` or the very subfolder of the `srcDir` is alias.
 
+Folder structure :
 ```bash
 - components
   └ folder-A
@@ -58,9 +67,22 @@ Alias is designated by the name of the parent folder of the inserted component. 
   └ component-C.vue
 ```
 
+nuxt.config.js :
 ```js
-// index.vue
-import ComponentA from 'folder-A/component-A'
+module.exports = {
+  buildModules: [{
+    'nuxt-alias'
+  }],
+  nuxtAlias: {
+    rootDir: ['components'],
+    ignoreDir: ['folder-A']
+  }
+}
+```
+
+index.vue :
+```js
+import ComponentA from 'folder-A/component-A' // An error is generated because it is a ignored folder.
 import ComponentB from 'folder-C/component-B'
 import ComponentC from '~/components/component-C' // If the srcDir immediate subfolder is alias, it does not specify alias.
 
