@@ -17,7 +17,8 @@ describe('module', () => {
   beforeAll(async () => {
     config.nuxtAlias = {
       rootDir: ['components'],
-      ignoreDir: ['folder-A']
+      ignoreDir: ['folder-A'],
+      transformDir: key => key.replace('folder', 'alias')
     }
 
     await setupNuxt(config)
@@ -34,5 +35,6 @@ describe('module', () => {
   test('option', () => {
     expect(nuxt.options.nuxtAlias).toHaveProperty('rootDir')
     expect(nuxt.options.nuxtAlias).toHaveProperty('ignoreDir')
+    expect(nuxt.options.nuxtAlias).toHaveProperty('transformDir')
   })
 })

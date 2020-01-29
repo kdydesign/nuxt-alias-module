@@ -11,14 +11,14 @@
 </template>
 
 <script>
-import ComponentA from '~/components/component-A'
+// import ComponentA from '~/components/component-A'
 import ComponentB from 'folder-A/component-B'
 import ComponentC from 'folder-C/component-C'
 
 export default {
   name: 'index',
   components: {
-    ComponentA,
+    // ComponentA,
     ComponentB,
     ComponentC
   }

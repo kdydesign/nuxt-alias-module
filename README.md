@@ -37,23 +37,43 @@ module.exports = {
 ## Options
 
 ### `rootDir`
-Set the parent folder name to configure alias.
-Setting `rootDir` creates an alias based on the structure of the set folder.
-`rootDir` is a subfolder of `srcDir`, which is the setting of `nuxt.config.js`.
+Set the parent folder name to configure alias
+Setting `rootDir` creates an alias based on the structure of the set folder
+`rootDir` is a subfolder of `srcDir`, which is the setting of `nuxt.config.js`
 
 - Type: `Array`
 - Default: `*`
+- Example:
+```js
+nuxtAlias: {
+  rootDir: ['components']
+}
+```
 
 ### `ignoreDir`
-Set the parent folder name to configure alias.
-Setting `rootDir` creates an alias based on the structure of the set folder.
-`rootDir` is a subfolder of `srcDir`, which is the setting of `nuxt.config.js`.
+Set folder name to ignore `alias` configuration. For `ignoreDir`, enter the parent path folder name of `.vue`
 
 - Type: `Array`
-- Default: `*`
+- Example:
+```js
+nuxtAlias: {
+  ignoreDir: ['folder-A']
+}
+```
+
+### `transformDir`
+Convert alias that are automatically created according to the folder structure.
+`transformDir` is a function and automatically generated alias is passed as a parameter.
+
+- Type: `Function`
+- Example:
+```js
+nuxtAlias: {
+  transformDir: orgAlias => orgAlias.replace('folder', 'transform-alias')
+}
+```
 
 ## Usage
-
 Alias is designated by the name of the parent folder of the inserted component. However, no alias are specified if the folder set in `rootDir` or the very subfolder of the `srcDir` is alias.
 
 Folder structure :

@@ -12,7 +12,8 @@ module.exports = {
   }],
   nuxtAlias: {
     rootDir: ['components'],
-    ignoreDir: ['folder-C']
+    ignoreDir: ['folder-C'],
+    transformDir: key => key.replace('folder', 'alias')
   },
   plugins: ['~/plugins/index']
 }
