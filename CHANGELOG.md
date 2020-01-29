@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/kdydesign/nuxt-alias-module/compare/v1.1.0...v1.2.0) (2020-01-29)
+
+
+### Features
+
+* change alias using transformDir ([17443dd](https://github.com/kdydesign/nuxt-alias-module/commit/17443dd5a229c2c48213dfbcf436893c683985eb))
+
 ## [1.1.0](https://github.com/kdydesign/nuxt-alias-module/compare/v1.0.1...v1.1.0) (2020-01-23)
 
 
