@@ -9,6 +9,11 @@ All notable changes to this project will be documented in this file. See [standa
 
 * change alias using transformDir ([17443dd](https://github.com/kdydesign/nuxt-alias-module/commit/17443dd5a229c2c48213dfbcf436893c683985eb))
 
+### Chore
+
+* Source Update for test case
+* Fancy logger
+
 ## [1.1.0](https://github.com/kdydesign/nuxt-alias-module/compare/v1.0.1...v1.1.0) (2020-01-23)
 
 
