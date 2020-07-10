@@ -7,7 +7,7 @@
 [![Standard JS][standard-js-src]][standard-js-href]
 ![License][license-src]
 
-> It automatically creates an alias for the components and page of the path</a>
+> It automatically creates an alias for the components and page of the path
 
 ## Infos
 - [📖 **Release Notes**](./CHANGELOG.md)
@@ -25,14 +25,16 @@ nuxt.config.js:
 
 ```js
 module.exports = {
-  buildModules: [{
+  buildModules: [
     'nuxt-alias'
-  }],
+  ],
   nuxtAlias: {
     /* module options */
   }
 }
 ```
+
+<br>
 
 ## Options
 
@@ -115,6 +117,8 @@ export default {
   }
 }
 ```
+
+<br>
 
 ## License
 

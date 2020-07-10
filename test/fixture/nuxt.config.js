@@ -14,6 +14,5 @@ module.exports = {
     rootDir: ['components'],
     ignoreDir: ['folder-C'],
     transformDir: key => key.replace('folder', 'alias')
-  },
-  plugins: ['~/plugins/index']
+  }
 }
